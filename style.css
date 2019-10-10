@@ -1,17 +1,86 @@
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
+  padding: 10px 
 }
-.site-nav{
+.site-nav {
   background: rgba( 0, 255, 0, 0.15 );
+
 }
+
+.site-nav ul {
+display: flex;
+padding: 1px
+}
+
+.site-nav li {
+display: flex; 
+flex-basis: 25%;
+border: 1px dashed rgb(185, 185, 185);
+margin: 0rem;
+padding: 1rem;
+}
+
 .site-main {
   background: #ffc;
+ 
 }
+
+.site-main section {
+  display: flex; 
+  flex-wrap: wrap; 
+  margin: 2rem; 
+}
+.site-main section {
+  align-self: flex-end; 
+}
+.site-main section h2 {
+  display: flex;
+  flex-basis: 100%
+
+}
+
+
 .hentry {
+  display: flex; 
   border: 2px dashed black;
-  margin: 1rem;
+  margin: 0rem; 
   padding: 1rem;
+  
+}
+
+.hentry { 
+  display: flex; 
+  flex-basis: 25% 
+ 
+}
+
+.hentry h3 {
+  display: flex; 
+  flex-direction: column; 
+  flex-basis: 100%
+
+}
+
+.hentry div {
+  display: flex; 
+  
+
 }
 footer {
  background: rgba( 0, 0, 255, 0.15 ); 
 }
+footer {
+ display: flex;
+ height: 40px
+
+}
+
+footer {
+  display: flex; 
+  margin: 0rem 
+  
+
+}
+
+
+
